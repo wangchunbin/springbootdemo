@@ -14,7 +14,7 @@ public class HtmlController {
     @RequestMapping("/goIndexHtml")
     public ModelAndView goIndexHtml() {
         ModelAndView modelAndView = new ModelAndView();
-        modelAndView.getModel().put("msg", "欢迎访问SpringBoot:"+contextPath+"应用！");
+        modelAndView.getModel().put("msg", "欢迎访问SpringBoot:" + contextPath + "应用！");
         modelAndView.setViewName("index");
         return modelAndView;
     }
